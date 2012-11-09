@@ -27,135 +27,189 @@ Element:12: 参与者
 Element:13: $help://usecasediagram.htm
 Diagram: Use Case Model
 Processing package: 管理
-Element:14: 提示最终结果
-Element:15: Start
-Element:16: 系统写入数据库
-Element:17: 歌词更新_ActivityGraph
-Element:18:  [Invokes: 添加用户]
-Element:19: Alternate1
-Element:20: 显示最近一条消息
-Element:21: Exception1
-Element:22: End
-Element:23: 系统存储
-Element:24: 用户管理
-Element:25: 删除音乐_ActivityGraph
-Element:26: Alternate1
-Element:27: 更新音乐信息
-Element:28: 会员 添加歌词信息
-Element:29: 音乐搜索_ActivityGraph
-Element:30: 游客
-Element:31: 显示个人界面 [Invokes: 用户查询]
-Element:32: 显示明星最新信息
-Element:33: 事务回滚
-Element:34: 事务回滚
-Element:35: 该音乐不存在
-Element:36: 从数据库中查找明星信息
-Element:37: 关注按键呈灰色
-Element:38: End
-Element:39: 明星信息更新
-Element:40: Start
-Element:41: 用户查询
-Element:42: End
-Element:43: Start
-Element:44: Start
-Element:45: Exception1
-Element:46: 管理员 选择搜索条件
-Element:47: 校对歌词
-Element:48: 删除用户_ActivityGraph
-Element:49: 显示操作的结果
-Element:50: FlowEnd1
-Element:51:  [Invokes: 更新用户信息]
-Element:52: 删除音乐
-Element:53: 选择要执行的操作类型
-Element:54: 管理员 输入音乐名
-Element:55: 用户管理_ActivityGraph
-Element:56: Alternate1
-Element:57: Exception1
-Element:58: 系统从数据库中删除用户相关信息并且返回提示
-Element:59: End
-Element:60: 该音乐类型不存在
+Element:14: 显示音乐信息
+Element:15: FlowEnd1
+Element:16: 提示最终结果
+Element:17: Start
+Element:18: 添加音乐_ActivityGraph
+Element:19: 显示保存失败
+Element:20: 系统写入数据库
+Element:21: 歌词更新_ActivityGraph
+Element:22:  [Invokes: 添加用户]
+Element:23: Alternate1
+Element:24: 显示最近一条消息
+Element:25: Exception1
+Element:26: End
+Element:27: 添加用户_ActivityGraph
+Element:28: 系统存储
+Element:29: 用户管理
+Element:30: 删除音乐_ActivityGraph
+Element:31: 音乐上传至服务器保存
+Element:32: Alternate1
+Element:33: 更新音乐信息
+Element:34: 会员 添加歌词信息
+Element:35: 显示当前评论内容
+Element:36: 音乐搜索_ActivityGraph
+Element:37: 数据库回滚
+Element:38: 游客
+Element:39: 显示个人界面 [Invokes: 用户查询]
+Element:40: Alternate1
+Element:41: 显示明星最新信息
+Element:42: Start
+Element:43: End
+Element:44: FlowEnd1
+Element:45: 事务回滚
+Element:46: 事务回滚
+Element:47: 该音乐不存在
+Element:48: 添加评论_ActivityGraph
+Element:49: 从数据库中查找明星信息
+Element:50: 关注按键呈灰色
+Element:51: End
+Element:52: 明星信息更新
+Element:53: Start
+Element:54: Exception2
+Element:55: 游客 注册
+Element:56: Start
+Element:57: 用户查询
+Element:58: End
+Element:59: 输入用户信息
+Element:60: Start
 Element:61: Start
-Element:62: 输入搜索关键字
-Element:63: 用户 点击搜索按键
-Element:64: 会员 修改个人相关信息栏目
-Element:65: 系统提取明星名称
-Element:66: 显示操作结果
-Element:67:  [Invokes: 明星信息更新]
-Element:68: Start
-Element:69: 添加需要的音乐类型
-Element:70: 添加评论
-Element:71: 管理员选择需要删除的用户
-Element:72: 给出界面提示
-Element:73: 更新用户信息_ActivityGraph
-Element:74: <include> 音乐搜索
-Element:75: Start
-Element:76: 更新明星信息
-Element:77: 添加音乐
-Element:78: 歌星关注
-Element:79: 歌星关注_ActivityGraph
-Element:80: 显示音乐信息更新失败
-Element:81: 给出出错信息
-Element:82: 界面显示无演唱者
-Element:83: 更新音乐信息_ActivityGraph
-Element:84: Alternate1
-Element:85: 返回相应结果
-Element:86: End
-Element:87: Alternate1
-Element:88: End
-Element:89:  [Invokes: 删除用户]
-Element:90: 输入身份
-Element:91: 歌词更新
-Element:92: Exception1
-Element:93: 歌曲专辑信息更新
-Element:94: 数据库更新
-Element:95: 显示关注失败
-Element:96: 标记音乐类型
-Element:97: 会员 查看歌曲信息
-Element:98: 事务回滚
-Element:99: 显示结果
-Element:100: 给出相应结果
-Element:101: Start
-Element:102: 用户查询_ActivityGraph
-Element:103: Alternate1
-Element:104: End
+Element:62: 选择音乐保存地址
+Element:63: Exception1
+Element:64: 管理员 选择搜索条件
+Element:65: Alternate1
+Element:66: 校对歌词
+Element:67: 显示音乐名称
+Element:68: 删除用户_ActivityGraph
+Element:69: 显示操作的结果
+Element:70: FlowEnd1
+Element:71:  [Invokes: 更新用户信息]
+Element:72: 数据库保存音乐信息
+Element:73: 删除音乐
+Element:74: 选择要执行的操作类型
+Element:75: 管理员 输入音乐名
+Element:76: 用户管理_ActivityGraph
+Element:77: 系统更新数据库
+Element:78: Alternate1
+Element:79: Exception1
+Element:80: 系统从数据库中删除用户相关信息并且返回提示
+Element:81: 确认添加用户
+Element:82: End
+Element:83: 该音乐类型不存在
+Element:84: Start
+Element:85: 输入搜索关键字
+Element:86: 用户 点击搜索按键
+Element:87: 会员 修改个人相关信息栏目
+Element:88: 系统提取明星名称
+Element:89: 显示操作结果
+Element:90:  [Invokes: 明星信息更新]
+Element:91: Start
+Element:92: 添加需要的音乐类型
+Element:93: 添加评论
+Element:94: 管理员选择需要删除的用户
+Element:95: 显示更改结果
+Element:96: 给出界面提示
+Element:97: 更新用户信息_ActivityGraph
+Element:98: <include> 音乐搜索
+Element:99: Start
+Element:100: 更新明星信息
+Element:101: 添加音乐
+Element:102: 查询用户 [Invokes: 用户查询]
+Element:103: 为该首歌曲填写评论信息
+Element:104: 歌星关注
 Element:105: Start
-Element:106: End
-Element:107: 系统更新数据库信息
-Element:108: 查找用户信息 [Invokes: 用户查询]
-Element:109: End
-Element:110: FlowEnd1
-Element:111: 系统记录数据库信息
-Element:112: 音乐搜索
-Element:113: 添加用户
-Element:114: 明星信息更新_ActivityGraph
-Element:115: 标记音乐类型_ActivityGraph
-Element:116: 数据库不进行更新
+Element:106: 选择音乐
+Element:107: 歌星关注_ActivityGraph
+Element:108: 显示音乐信息更新失败
+Element:109: 给出出错信息
+Element:110: Exception1
+Element:111: 界面显示无演唱者
+Element:112: 更新音乐信息_ActivityGraph
+Element:113: 会员 收听歌曲
+Element:114: Alternate1
+Element:115: 返回相应结果
+Element:116: End
 Element:117: Alternate1
-Element:118: 歌曲专辑信息更新_ActivityGraph
-Element:119: Exception1
-Element:120:  [Invokes: 标记音乐类型]
-Element:121:  [Invokes: 歌曲专辑信息更新]
-Element:122: 会员 搜索歌曲
-Element:123: FlowEnd1
-Element:124: 管理员 接收外部订阅消息
-Element:125: System Boundary
-Element:126: End
-Element:127: 事务回滚
-Element:128: 歌词不存在
-Element:129: 管理员根据需要通过用户Email或ID等信息搜索用户 [Invokes: 用户查询]
-Element:130: 管理员 输入音乐名称或音乐Id
-Element:131: 系统删除数据库中的记录. 
-Element:132: FlowEnd1
-Element:133: 从给定的类型中选择
-Element:134: 音乐下载
-Element:135: 删除用户
-Element:136: 更新用户信息
-Element:137: 系统根据搜索条件进行数据库的搜索
-Element:138: 添加用户_ActivityGraph
-Element:139: 管理员 删除需要删除的歌曲
-Element:140: 关注该歌曲的演唱者
-Element:141: Start
-Element:142: 修改相应的用户信息
+Element:118: Exception1
+Element:119: End
+Element:120: 提示音乐不存在
+Element:121: FlowEnd1
+Element:122: 选择音乐品质
+Element:123: End
+Element:124:  [Invokes: 删除用户]
+Element:125: 输入身份
+Element:126: 歌词更新
+Element:127: Exception1
+Element:128: 歌曲专辑信息更新
+Element:129: 数据库更新
+Element:130: 显示关注失败
+Element:131: 管理员 会员 上传音乐
+Element:132: 标记音乐类型
+Element:133: 会员 查看歌曲信息
+Element:134: 填写音乐信息
+Element:135: 事务回滚
+Element:136: 显示结果
+Element:137: 给出相应结果
+Element:138: Start
+Element:139: 音乐下载_ActivityGraph
+Element:140: 用户查询_ActivityGraph
+Element:141: 点击保存
+Element:142: Alternate1
+Element:143: End
+Element:144: Start
+Element:145: End
+Element:146: 系统更新数据库信息
+Element:147: 查找用户信息 [Invokes: 用户查询]
+Element:148: End
+Element:149: FlowEnd1
+Element:150: 系统记录数据库信息
+Element:151: 音乐搜索
+Element:152: 添加用户
+Element:153: 提示更新成功并显示用户信息
+Element:154: 显示上传失败
+Element:155: 系统处理下载任务
+Element:156: 明星信息更新_ActivityGraph
+Element:157: 标记音乐类型_ActivityGraph
+Element:158: 数据库不进行更新
+Element:159: Alternate1
+Element:160: 歌曲专辑信息更新_ActivityGraph
+Element:161: Exception1
+Element:162:  [Invokes: 标记音乐类型]
+Element:163:  [Invokes: 歌曲专辑信息更新]
+Element:164: 会员 搜索歌曲
+Element:165: FlowEnd1
+Element:166: End
+Element:167: 管理员 接收外部订阅消息
+Element:168: System Boundary
+Element:169: End
+Element:170: FlowEnd1
+Element:171: 事务回滚
+Element:172: 数据库回滚
+Element:173: 要求用户重新提交
+Element:174: 歌词不存在
+Element:175: 会员 搜索音乐 [Invokes: 音乐搜索]
+Element:176: 管理员根据需要通过用户Email或ID等信息搜索用户 [Invokes: 用户查询]
+Element:177: 显示信息保存失败
+Element:178: 管理员 输入音乐名称或音乐Id
+Element:179: 数据库事务回滚
+Element:180: 系统删除数据库中的记录. 
+Element:181: FlowEnd1
+Element:182: 显示更新失败信息
+Element:183: 从给定的类型中选择
+Element:184: End
+Element:185: Start
+Element:186: 音乐下载
+Element:187: Exception1
+Element:188: 删除用户
+Element:189: Alternate1
+Element:190: 更新用户信息
+Element:191: 系统根据搜索条件进行数据库的搜索
+Element:192: 管理员 删除需要删除的歌曲
+Element:193: 关注该歌曲的演唱者
+Element:194: Start
+Element:195: 修改相应的用户信息
+Element:196: 管理员 会员 搜索音乐 [Invokes: 音乐搜索]
 Diagram: Music Management
 Diagram: 音乐搜索_ActivityGraph
 Diagram: 删除音乐_ActivityGraph
@@ -167,61 +221,121 @@ Diagram: 更新音乐信息_ActivityGraph
 Diagram: 标记音乐类型_ActivityGraph
 Diagram: 歌星关注_ActivityGraph
 Diagram: 歌词更新_ActivityGraph
+Diagram: 添加用户_ActivityGraph
+Diagram: 添加评论_ActivityGraph
+Diagram: 添加音乐_ActivityGraph
+Diagram: 音乐下载_ActivityGraph
 Processing package: 参与者
-Element:143: 会员
-Element:144: 管理员
-Element:145: 游客
-Element:146: 用户
+Element:197: 会员
+Element:198: 管理员
+Element:199: 游客
+Element:200: 用户
 Diagram: Actors
 Processing package: 系统用例
-Element:147: 根据用户喜好推荐
-Element:148: 排行榜
-Element:149: 用户自定义界面
-Element:150: System Boundary
-Element:151: 系统推荐音乐
-Element:152: auto Boundary
-Element:153: 下载排行
-Element:154: 搜索排行
-Element:155: 试听排行
-Element:156: 登录
-Element:157: 推送相关通知
-Element:158: 根据收听次数推荐
-Element:159: 注册
+Element:201: 根据用户喜好推荐
+Element:202: 排行榜
+Element:203: 用户自定义界面
+Element:204: System Boundary
+Element:205: 系统推荐音乐
+Element:206: auto Boundary
+Element:207: 下载排行
+Element:208: 搜索排行
+Element:209: 试听排行
+Element:210: 登录
+Element:211: 推送相关通知
+Element:212: 根据收听次数推荐
+Element:213: 注册
 Diagram: AutoCase
 Processing package: 音乐播放器
-Element:160: 查看歌词
-Element:161: System Boundary
-Element:162: 停止播放
-Element:163: 快进/快退
-Element:164: 分享至外部接口
-Element:165: 添加至播放列表
-Element:166: 音乐播放、暂停
-Element:167: 标记为喜欢
-Element:168: 设置播放音质
-Element:169: 分享音乐
-Element:170: 保存至网盘
-Element:171: Object1
+Element:214: 添加至播放列表_ActivityGraph
+Element:215: 播放列表中的歌曲
+Element:216: Exception1
+Element:217: End
+Element:218: 查看歌词
+Element:219:  [Invokes: 音乐搜索]
+Element:220: System Boundary
+Element:221: End
+Element:222: 显示当前播放音质
+Element:223: 查看歌词_ActivityGraph
+Element:224: 点击播放 [Invokes: 音乐播放、暂停]
+Element:225: 设置播放音质_ActivityGraph
+Element:226: 查看音乐信息
+Element:227: 显示歌词
+Element:228: Alternate1
+Element:229: FlowEnd1
+Element:230: 用户 点击播放按键
+Element:231: 提示用户进行选择
+Element:232: 标记为喜欢_ActivityGraph
+Element:233: Exception1
+Element:234: 用户 选择音质
+Element:235: End
+Element:236: 用户 搜索歌曲
+Element:237: Start
+Element:238: Exception1
+Element:239: 停止播放
+Element:240: 播放器界面显示当前状态
+Element:241: 提示存储失败
+Element:242: 音乐播放、暂停_ActivityGraph
+Element:243: 点击“喜欢”按键
+Element:244: 提示用户当前播放列表无歌曲
+Element:245: 界面不显示相应成功提示
+Element:246: 快进/快退
+Element:247: 分享至外部接口
+Element:248: 添加至播放列表
+Element:249: 播放列表中显示添加的歌曲
+Element:250: 音乐播放、暂停
+Element:251: End
+Element:252: 标记为喜欢
+Element:253: Start
+Element:254: Alternate1
+Element:255: Start
+Element:256: 用户 在音乐播放时点击查看歌词
+Element:257: 设置播放音质
+Element:258: 系统存储至数据库
+Element:259: 选中希望收听的歌曲
+Element:260: 界面显示出错信息
+Element:261: Start
+Element:262: 分享音乐
+Element:263: 点击添加至播放列表
+Element:264: Start
+Element:265: Alternate1
+Element:266: 保存至网盘
+Element:267: 用户 点击查看排行榜
+Element:268: Exception1
+Element:269: 界面显示喜欢歌曲成功
+Element:270: 暂停播放歌曲
+Element:271: 会员 收听歌曲 [Invokes: 音乐播放、暂停]
+Element:272: Object1
+Element:273: 提示歌词不存在
+Element:274: 显示添加歌曲失败
+Element:275: End
+Element:276: FlowEnd1
 Diagram: Music Player Use Cases
 Diagram: Use Case1
+Diagram: 查看歌词_ActivityGraph
+Diagram: 添加至播放列表_ActivityGraph
+Diagram: 设置播放音质_ActivityGraph
+Diagram: 标记为喜欢_ActivityGraph
+Diagram: 音乐播放、暂停_ActivityGraph
 Processing package: Class Model
-Element:172: $help://class_model_pattern.htm
-Element:173: Note
-Element:174: Frameworks
-Element:175: Entity
-Element:176: $help://classdiagram.htm
-Element:177: 
-Element:178: 
+Element:277: $help://class_model_pattern.htm
+Element:278: Note
+Element:279: Frameworks
+Element:280: Entity
+Element:281: $help://classdiagram.htm
+Element:282: 
+Element:283: 
 Diagram: Class Model
 Processing package: Entity
-Element:179: User
-Element:180: Class1
-Element:181: Album
-Element:182: Music
-Element:183: Company
-Element:184: Comment
+Element:284: User
+Element:285: Class1
+Element:286: Album
+Element:287: Music
+Element:288: Company
+Element:289: Comment
 Diagram: System
 Processing package: Frameworks
-Element:185: Note
+Element:290: Note
 Diagram: Frameworks
 Adding State-Tables
 Formatting output XML...please wait

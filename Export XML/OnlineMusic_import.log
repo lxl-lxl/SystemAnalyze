@@ -1,0 +1,268 @@
+
+Gather external references for later resolution
+Deleting existing packages from model
+Importing Model from XMI
+Root Package: Model
+Add Classifier Role: Class Model
+Add Classifier Role: Use Case Model
+Append Package: Use Case Model
+Add Classifier: $help://use_case_model_pattern.htm
+Add Classifier: 
+Add Classifier: 
+Add Classifier: $help://actor.htm
+Add Classifier: Note
+Add Classifier: 
+Add Classifier: 
+Add Classifier: $help://usecasediagram.htm
+Add Classifier Role: 管理
+Add Classifier Role: 音乐播放器
+Add Classifier Role: 系统用例
+Add Classifier Role: 参与者
+Append Package: 管理
+Add Classifier: 用户管理
+Add Classifier: 更新音乐信息
+Add Classifier: 明星信息更新
+Add Classifier: 用户查询
+Add Classifier: 删除音乐
+Add Classifier: 添加评论
+Add Classifier: 添加音乐
+Add Classifier: 歌星关注
+Add Classifier: 歌词更新
+Add Classifier: 歌曲专辑信息更新
+Add Classifier: 标记音乐类型
+Add Classifier: 音乐搜索
+Add Classifier: 添加用户
+Add Classifier: 音乐下载
+Add Classifier: 删除用户
+Add Classifier: 更新用户信息
+Add Classifier Role: System Boundary
+Add State: 提示最终结果
+Add State: Start
+Add State: 系统写入数据库
+Add State: 歌词更新_ActivityGraph
+Add State:  [Invokes: 添加用户]
+Add State: Alternate1
+Add State: 显示最近一条消息
+Add State: Exception1
+Add State: End
+Add State: 系统存储
+Add State: 删除音乐_ActivityGraph
+Add State: Alternate1
+Add State: 会员 添加歌词信息
+Add State: 音乐搜索_ActivityGraph
+Add State: 游客
+Add State: 显示个人界面 [Invokes: 用户查询]
+Add State: 显示明星最新信息
+Add State: 事务回滚
+Add State: 事务回滚
+Add State: 该音乐不存在
+Add State: 从数据库中查找明星信息
+Add State: 关注按键呈灰色
+Add State: End
+Add State: Start
+Add State: End
+Add State: Start
+Add State: Start
+Add State: Exception1
+Add State: 管理员 选择搜索条件
+Add State: 校对歌词
+Add State: 删除用户_ActivityGraph
+Add State: 显示操作的结果
+Add State: FlowEnd1
+Add State:  [Invokes: 更新用户信息]
+Add State: 选择要执行的操作类型
+Add State: 管理员 输入音乐名
+Add State: 用户管理_ActivityGraph
+Add State: Alternate1
+Add State: Exception1
+Add State: 系统从数据库中删除用户相关信息并且返回提示
+Add State: End
+Add State: 该音乐类型不存在
+Add State: Start
+Add State: 输入搜索关键字
+Add State: 用户 点击搜索按键
+Add State: 会员 修改个人相关信息栏目
+Add State: 系统提取明星名称
+Add State: 显示操作结果
+Add State:  [Invokes: 明星信息更新]
+Add State: Start
+Add State: 添加需要的音乐类型
+Add State: 管理员选择需要删除的用户
+Add State: 给出界面提示
+Add State: 更新用户信息_ActivityGraph
+Add State: <include> 音乐搜索
+Add State: Start
+Add State: 更新明星信息
+Add State: 歌星关注_ActivityGraph
+Add State: 显示音乐信息更新失败
+Add State: 给出出错信息
+Add State: 界面显示无演唱者
+Add State: 更新音乐信息_ActivityGraph
+Add State: Alternate1
+Add State: 返回相应结果
+Add State: End
+Add State: Alternate1
+Add State: End
+Add State:  [Invokes: 删除用户]
+Add State: 输入身份
+Add State: Exception1
+Add State: 数据库更新
+Add State: 显示关注失败
+Add State: 会员 查看歌曲信息
+Add State: 事务回滚
+Add State: 显示结果
+Add State: 给出相应结果
+Add State: Start
+Add State: 用户查询_ActivityGraph
+Add State: Alternate1
+Add State: End
+Add State: Start
+Add State: End
+Add State: 系统更新数据库信息
+Add State: 查找用户信息 [Invokes: 用户查询]
+Add State: End
+Add State: FlowEnd1
+Add State: 系统记录数据库信息
+Add State: 明星信息更新_ActivityGraph
+Add State: 标记音乐类型_ActivityGraph
+Add State: 数据库不进行更新
+Add State: Alternate1
+Add State: 歌曲专辑信息更新_ActivityGraph
+Add State: Exception1
+Add State:  [Invokes: 标记音乐类型]
+Add State:  [Invokes: 歌曲专辑信息更新]
+Add State: 会员 搜索歌曲
+Add State: FlowEnd1
+Add State: 管理员 接收外部订阅消息
+Add State: End
+Add State: 事务回滚
+Add State: 歌词不存在
+Add State: 管理员根据需要通过用户Email或ID等信息搜索用户 [Invokes: 用户查询]
+Add State: 管理员 输入音乐名称或音乐Id
+Add State: 系统删除数据库中的记录. 
+Add State: FlowEnd1
+Add State: 从给定的类型中选择
+Add State: 系统根据搜索条件进行数据库的搜索
+Add State: 添加用户_ActivityGraph
+Add State: 管理员 删除需要删除的歌曲
+Add State: 关注该歌曲的演唱者
+Add State: Start
+Add State: 修改相应的用户信息
+Append Package: 参与者
+Add Classifier: 会员
+Add Classifier: 管理员
+Add Classifier: 游客
+Add Classifier: 用户
+Append Package: 系统用例
+Add Classifier: 根据用户喜好推荐
+Add Classifier: 排行榜
+Add Classifier: 用户自定义界面
+Add Classifier: 系统推荐音乐
+Add Classifier: 下载排行
+Add Classifier: 搜索排行
+Add Classifier: 试听排行
+Add Classifier: 登录
+Add Classifier: 推送相关通知
+Add Classifier: 根据收听次数推荐
+Add Classifier: 注册
+Add Classifier Role: System Boundary
+Add Classifier Role: auto Boundary
+Append Package: 音乐播放器
+Add Classifier: 查看歌词
+Add Classifier: 停止播放
+Add Classifier: 快进/快退
+Add Classifier: 分享至外部接口
+Add Classifier: 添加至播放列表
+Add Classifier: 音乐播放、暂停
+Add Classifier: 标记为喜欢
+Add Classifier: 设置播放音质
+Add Classifier: 分享音乐
+Add Classifier: 保存至网盘
+Add Classifier Role: System Boundary
+Add Classifier Role: Object1
+Append Package: Class Model
+Add Classifier: $help://class_model_pattern.htm
+Add Classifier: Note
+Add Classifier: $help://classdiagram.htm
+Add Classifier: 
+Add Classifier: 
+Add Classifier Role: Frameworks
+Add Classifier Role: Entity
+Append Package: Entity
+Add Classifier: User
+Add Classifier: Class1
+Add Classifier: Album
+Add Classifier: Music
+Add Classifier: Company
+Add Classifier: Comment
+Append Package: Frameworks
+Add Classifier: Note
+Resolving Classifiers
+Resolving Owners
+Resolve Package Links
+Add Extensions
+Add Diagrams
+Adding Diagram : Use Case Model
+Adding Diagram : Music Management
+Adding Diagram : 音乐搜索_ActivityGraph
+Adding Diagram : 删除音乐_ActivityGraph
+Adding Diagram : 用户管理_ActivityGraph
+Adding Diagram : 删除用户_ActivityGraph
+Adding Diagram : 更新用户信息_ActivityGraph
+Adding Diagram : 明星信息更新_ActivityGraph
+Adding Diagram : 更新音乐信息_ActivityGraph
+Adding Diagram : 标记音乐类型_ActivityGraph
+Adding Diagram : 歌星关注_ActivityGraph
+Adding Diagram : 歌词更新_ActivityGraph
+Adding Diagram : Actors
+Adding Diagram : AutoCase
+Adding Diagram : Music Player Use Cases
+Adding Diagram : Use Case1
+Adding Diagram : Class Model
+Adding Diagram : System
+Adding Diagram : Frameworks
+Adding Elements to Diagram : Use Case Model
+Adding Elements to Diagram : Music Management
+Adding Elements to Diagram : 音乐搜索_ActivityGraph
+Adding Elements to Diagram : 删除音乐_ActivityGraph
+Adding Elements to Diagram : 用户管理_ActivityGraph
+Adding Elements to Diagram : 删除用户_ActivityGraph
+Adding Elements to Diagram : 更新用户信息_ActivityGraph
+Adding Elements to Diagram : 明星信息更新_ActivityGraph
+Adding Elements to Diagram : 更新音乐信息_ActivityGraph
+Adding Elements to Diagram : 标记音乐类型_ActivityGraph
+Adding Elements to Diagram : 歌星关注_ActivityGraph
+Adding Elements to Diagram : 歌词更新_ActivityGraph
+Adding Elements to Diagram : Actors
+Adding Elements to Diagram : AutoCase
+Adding Elements to Diagram : Music Player Use Cases
+Adding Elements to Diagram : Use Case1
+Adding Elements to Diagram : Class Model
+Adding Elements to Diagram : System
+Adding Elements to Diagram : Frameworks
+Resolving DiagramIDs
+Adding Links to Diagram : Use Case Model
+Adding Links to Diagram : Music Management
+Adding Links to Diagram : 音乐搜索_ActivityGraph
+Adding Links to Diagram : 删除音乐_ActivityGraph
+Adding Links to Diagram : 用户管理_ActivityGraph
+Adding Links to Diagram : 删除用户_ActivityGraph
+Adding Links to Diagram : 更新用户信息_ActivityGraph
+Adding Links to Diagram : 明星信息更新_ActivityGraph
+Adding Links to Diagram : 更新音乐信息_ActivityGraph
+Adding Links to Diagram : 标记音乐类型_ActivityGraph
+Adding Links to Diagram : 歌星关注_ActivityGraph
+Adding Links to Diagram : 歌词更新_ActivityGraph
+Adding Links to Diagram : Actors
+Adding Links to Diagram : AutoCase
+Adding Links to Diagram : Music Player Use Cases
+Adding Links to Diagram : Use Case1
+Adding Links to Diagram : Class Model
+Adding Links to Diagram : System
+Adding Links to Diagram : Frameworks
+Resolving Association Classes
+Resolving Parameter Types
+Resolving Attribute Types
+Resolving Note links
+Fixup external references
+Import Complete!
