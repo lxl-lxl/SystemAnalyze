@@ -3181,7 +3181,7 @@ Shadow=0
 <c:Symbols>
 <o:ReferenceSymbol Id="o6">
 <a:ModificationDate>1352271476</a:ModificationDate>
-<a:Rect>((6122,10492), (16897,30196))</a:Rect>
+<a:Rect>((6122,10491), (16897,30196))</a:Rect>
 <a:ListOfPoints>((6122,11588),(13522,11588),(13522,30196))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -3286,7 +3286,7 @@ DESTINATION 0 新宋体,8,N</a:FontList>
 </o:ReferenceSymbol>
 <o:ReferenceSymbol Id="o22">
 <a:ModificationDate>1352271476</a:ModificationDate>
-<a:Rect>((-42199,29907), (-8626,33367))</a:Rect>
+<a:Rect>((-42199,29907), (-11438,33367))</a:Rect>
 <a:ListOfPoints>((-11438,33367),(-11438,29907),(-42199,29907))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -3307,7 +3307,7 @@ DESTINATION 0 新宋体,8,N</a:FontList>
 </o:ReferenceSymbol>
 <o:ReferenceSymbol Id="o24">
 <a:ModificationDate>1352271476</a:ModificationDate>
-<a:Rect>((-43235,26363), (-16500,27685))</a:Rect>
+<a:Rect>((-43235,26363), (-16500,26813))</a:Rect>
 <a:ListOfPoints>((-16500,26588),(-43235,26588))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -3349,7 +3349,7 @@ DESTINATION 0 新宋体,8,N</a:FontList>
 </o:ReferenceSymbol>
 <o:ReferenceSymbol Id="o30">
 <a:ModificationDate>1352271476</a:ModificationDate>
-<a:Rect>((-13162,988), (17769,14295))</a:Rect>
+<a:Rect>((-13162,988), (17769,14296))</a:Rect>
 <a:ListOfPoints>((-13162,13199),(14769,13199),(14769,988))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -3496,7 +3496,7 @@ DESTINATION 0 新宋体,8,N</a:FontList>
 </o:ReferenceSymbol>
 <o:ReferenceSymbol Id="o49">
 <a:ModificationDate>1352271476</a:ModificationDate>
-<a:Rect>((-41012,28225), (-19730,45308))</a:Rect>
+<a:Rect>((-37825,28225), (-19730,44212))</a:Rect>
 <a:ListOfPoints>((-19730,44212),(-37825,44212),(-37825,28225))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -3517,7 +3517,7 @@ DESTINATION 0 新宋体,8,N</a:FontList>
 </o:ReferenceSymbol>
 <o:ReferenceSymbol Id="o52">
 <a:ModificationDate>1352271476</a:ModificationDate>
-<a:Rect>((-10288,34100), (13846,43496))</a:Rect>
+<a:Rect>((-10288,34100), (10846,42400))</a:Rect>
 <a:ListOfPoints>((-10288,42400),(10846,42400),(10846,34100))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -3559,7 +3559,7 @@ DESTINATION 0 新宋体,8,N</a:FontList>
 </o:ReferenceSymbol>
 <o:ReferenceSymbol Id="o57">
 <a:ModificationDate>1352271476</a:ModificationDate>
-<a:Rect>((-66761,3142), (-51075,4538))</a:Rect>
+<a:Rect>((-66761,3142), (-51075,3742))</a:Rect>
 <a:ListOfPoints>((-51075,3742),(-58392,3742),(-58392,3142),(-66761,3142))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -7254,7 +7254,7 @@ DAT 1352269577</a:History>
 <a:Creator>futurezt</a:Creator>
 <a:ModificationDate>1352271476</a:ModificationDate>
 <a:Modifier>futurezt</a:Modifier>
-<a:TargetModelURL>file:///E|/himiko/Dropbox/苦逼研究僧/作业/系统分析/SystemAnalyze/SystemAnalyze/Database/OnlineMusicConceptModel.cdm</a:TargetModelURL>
+<a:TargetModelURL>file:///D|/himiko/github/SystemAnalyze/Database/OnlineMusicConceptModel.cdm</a:TargetModelURL>
 <a:TargetModelID>27ACE232-4B23-4532-BDFD-93609F260FE5</a:TargetModelID>
 <a:TargetModelClassID>1E597170-9350-11D1-AB3C-0020AF71E433</a:TargetModelClassID>
 <c:SessionShortcuts>
